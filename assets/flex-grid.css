@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+	/* Columns w/ padding */
+	
+	.column-1,.phone .pcol1,.tablet .tcol1,.desktop .dcol1,.widescreen .wcol1
+		{ width: 6.25%; }								/* 60 / 960 = 6.25 */
+	.column-2,.phone .pcol2,.tablet .tcol2,.desktop .dcol2,.widescreen .wcol2 
+		{ width: 14.5833333333%; }						/* 140 / 960 = 14.5833333333 */
+	.column-3,.phone .pcol3,.tablet .tcol3,.desktop .dcol3,.widescreen .wcol3
+		{ width: 22.91666666667%; }					/* 220 / 960 = 22.9166666667 */
+	.column-4,.phone .pcol4,.tablet .tcol4,.desktop .dcol4,.widescreen .wcol4
+		{ width: 31.25%; }								/* 300 / 960 = 31.25 */
+	.column-5,.phone .pcol5,.tablet .tcol5,.desktop .dcol5,.widescreen .wcol5
+		{ width: 39.5833333333%; }						/* 380 / 960 = 39.5833333333 */
+	.column-6,.phone .pcol6,.tablet .tcol6,.desktop .dcol6,.widescreen .wcol6
+		{ width: 47.9166666667%; }						/* 460 / 960 = 47.9666666667 */
+	.column-7,.phone .pcol7,.tablet .tcol7,.desktop .dcol7,.widescreen .wcol7
+		{ width: 56.25%; }								/* 540 / 960 = 56.25 */
+	.column-8,.phone .pcol8,.tablet .tcol8,.desktop .dcol8,.widescreen .wcol8
+		{ width: 64.5833333333%; }						/* 620 / 960 = 64.5833333333 */
+	.column-9,.phone .pcol9,.tablet .tcol9,.desktop .dcol9,.widescreen .wcol9
+		{ width: 72.9166666667%; }						/* 700 / 960 = 72.9166666667 */
+	.column-10,.phone .pcol10,.tablet .tcol10,.desktop .dcol10,.widescreen .wcol10
+		{ width: 81.25%; }							/* 780/960 = 81.25 */
+	.column-11,.phone .pcol11,.tablet .tcol11,.desktop .dcol11,.widescreen .wcol11
+		{ width: 89.5833333333%; }					/* 860 / 960 = 89.5833333333 */                               
+	.column-12,.phone .pcol12,.tablet .tcol12,.desktop .dcol12,.widescreen .wcol12
+		{ width: 97.9166666667%; }					/* 940 / 960 = 97.9166666667 */
+
+		
+	.column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-7,.column-8,.column-9,.column-10,.column-11,.column-12,
+	.phone .pcol1,.tablet .tcol1,.desktop .dcol1,.widescreen .wcol1,
+	.phone .pcol2,.tablet .tcol2,.desktop .dcol2,.widescreen .wcol2,
+	.phone .pcol3,.tablet .tcol3,.desktop .dcol3,.widescreen .wcol3,
+	.phone .pcol4,.tablet .tcol4,.desktop .dcol4,.widescreen .wcol4,
+	.phone .pcol5,.tablet .tcol5,.desktop .dcol5,.widescreen .wcol5,
+	.phone .pcol6,.tablet .tcol6,.desktop .dcol6,.widescreen .wcol6,
+	.phone .pcol7,.tablet .tcol7,.desktop .dcol7,.widescreen .wcol7,
+	.phone .pcol8,.tablet .tcol8,.desktop .dcol8,.widescreen .wcol8,
+	.phone .pcol9,.tablet .tcol9,.desktop .dcol9,.widescreen .wcol9,
+	.phone .pcol10,.tablet .tcol10,.desktop .dcol10,.widescreen .wcol10,
+	.phone .pcol11,.tablet .tcol11,.desktop .dcol11,.widescreen .wcol11,
+	.phone .pcol12,.tablet .tcol12,.desktop .dcol12,.widescreen .wcol12
+		{ padding: 0 1.0416666667%; float: left; }
+	
+	.column-12,.phone .pcol12,.tablet .tcol12,.desktop .dcol12,.widescreen .wcol12
+		{ float:none; }
+	
+	
+	
+	/* Containers w/o padding*/
+	.container-1, .phone .pcon1, .tablet .tcon1, .desktop .dcon1, .widescreen .wcon1 
+		{ width: 8.33333333333%; }  				/*  80 / 960 = 8.33333333333 */
+	.container-2, .phone .pcon2, .tablet .tcon2, .desktop .dcon2, .widescreen .wcon2 
+		{ width: 16.6666666667%; }					/* 160 / 960 = 16.6666666667 */
+	.container-3, .phone .pcon3, .tablet .tcon3, .desktop .dcon3, .widescreen .wcon3 
+		{ width: 25%; } 							/* 240 / 960 = 25% */
+	.container-4, .phone .pcon4, .tablet .tcon4, .desktop .dcon4, .widescreen .wcon4 
+		{ width: 33.33333333333%; } 				/* 320 / 960 = 33.33333333333 */
+	.container-5, .phone .pcon5, .tablet .tcon5, .desktop .dcon5, .widescreen .wcon5 
+		{ width: 41.66666666667%; } 				/* 400 / 960 = 41.66666666667 */
+	.container-6, .phone .pcon6, .tablet .tcon6, .desktop .dcon6, .widescreen .wcon6 
+		{ width: 50%; } 							/* 480 / 960 = 50% */
+	.container-7, .phone .pcon7, .tablet .tcon7, .desktop .dcon7, .widescreen .wcon7 
+		{ width: 58.3333333333%; }					/* 560 / 960 = 58.3333333333 */
+	.container-8, .phone .pcon8, .tablet .tcon8, .desktop .dcon8, .widescreen .wcon8 
+		{ width: 66.6666666667%; }					/* 640 / 960 = 66.6666666667 */
+	.container-9, .phone .pcon9, .tablet .tcon9, .desktop .dcon9, .widescreen .wcon9 
+		{ width: 75%; }								/* 720 / 960 = 75% */
+	.container-10, .phone .pcon10, .tablet .tcon10, .desktop .dcon10, .widescreen .wcon10 
+		{ width: 83.3333333333%; }                	/* 800 / 960 = 83.3333333333 */
+	.container-11, .phone .pcon11, .tablet .tcon11, .desktop .dcon11, .widescreen .wcon11 
+		{ width: 91.6666666667%; }					/* 880 / 960 = 91.6666666667 */
+	.container-12, .phone .pcon12, .tablet .tcon12, .desktop .dcon12, .widescreen .wcon12 
+		{ width: 100%; margin:0 auto; max-width: 960px }	
+	
+	.container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11,
+	.phone .pcon1,.tablet .tcon1,.desktop .dcon1,.widescreen .wcon1,
+	.phone .pcon2,.tablet .tcon2,.desktop .dcon2,.widescreen .wcon2,
+	.phone .pcon3,.tablet .tcon3,.desktop .dcon3,.widescreen .wcon3,
+	.phone .pcon4,.tablet .tcon4,.desktop .dcon4,.widescreen .wcon4,
+	.phone .pcon5,.tablet .tcon5,.desktop .dcon5,.widescreen .wcon5,
+	.phone .pcon6,.tablet .tcon6,.desktop .dcon6,.widescreen .wcon6,
+	.phone .pcon7,.tablet .tcon7,.desktop .dcon7,.widescreen .wcon7,
+	.phone .pcon8,.tablet .tcon8,.desktop .dcon8,.widescreen .wcon8,
+	.phone .pcon9,.tablet .tcon9,.desktop .dcon9,.widescreen .wcon9,
+	.phone .pcon10,.tablet .tcon10,.desktop .dcon10,.widescreen .wcon10,
+	.phone .pcon11,.tablet .tcon11,.desktop .dcon11,.widescreen .wcon11
+		{ float: left;  margin:0;}
+	
+	
+	
+	/* Fixes/Hacks */
+	
+	.clear { clear:both; margin:0; padding:0; }
+
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+	
+	.clearfix { display: inline-table; }	
+	
+	.hide { display: none !important; visibility: hidden !important; }
